@@ -1,14 +1,24 @@
-.box{
-    background-color: #4c77cf;
-    padding: 5rem 8rem;
-    background-image: linear-gradient(to bottom right, #4c77cf,#46a7a8);
-}
-.container{
-    text-align: center;
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(7, 50, 115), rgb(91, 217, 236));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .main{
+    width: 400px;
+    margin: 10% auto;
+    border-radius: 4px;
+    padding: 2.5rem;
     background-color: white;
-    padding: 5rem ;
-}
-button{
+  }
+  .button {
+    background-color: rgb(7, 50, 115); 
     color: white;
-    background-color: #1d6fd9;
-}
+    border: rgb(7, 50, 115);
+    border-radius: 4px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-size: 12px;
+  }
